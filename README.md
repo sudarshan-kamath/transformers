@@ -18,9 +18,10 @@ Since I use Conda for managing the python environments, I need to install transf
 
 To check the installation:
 
-`python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('we love you'))"`
+`python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I am hungry'))"`
 
 This downloads a model of around 268 Mb in size for prediction the sentiment. 
 The following output is obtained:
 
-`[{'label': 'POSITIVE', 'score': 0.9998704791069031}]`
+`[{'label': 'NEGATIVE', 'score': 0.9992780685424805}]`
+

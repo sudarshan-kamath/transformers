@@ -25,3 +25,8 @@ The following output is obtained:
 
 `[{'label': 'NEGATIVE', 'score': 0.9992780685424805}]`
 
+# Update (12.05.22)
+Since I am now venturing into fulltime into the domain of NLP, with the experience, I can say that a docker based installation always trumps a local install as the dependencies are directly present and the pwd can be easily mounted to work with the existing data.
+
+For transformers with pytorch, head to https://hub.docker.com/r/huggingface/transformers-pytorch-gpu/tags and get a fixed version.
+I would also be adding the docker-compose files in this repo

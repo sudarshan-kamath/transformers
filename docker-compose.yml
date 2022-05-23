@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  hg-tf:
+    restart: always
+    runtime: nvidia
+    image: "huggingface/transformers-pytorch-gpu:4.19.0"
+    volumes:
+      - ./:/project
+    tty: true
